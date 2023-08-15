@@ -69,7 +69,6 @@ bootstrap:
               - cdf-group: cdf:uc:001:oee:read
                 idp-source-id: 855ecd39-1fed-462a-9a9d-6f28d0ad73ce # for the AAD Group to be matched to cdf-group
                 idp-source-name: bootcamp-03-test-uc-001-oee-read
-
         - cdf-project: cdf-bootcamp-03-prod # i.e. bootcamp-01-test
           mappings:
               - cdf-group: cdf:root
