@@ -8,6 +8,7 @@ destination:
     type: asset_hierarchy
 ignoreNullFields: true
 shared: true
+schedule: '* * * * *'
 action: upsert
 dataSetExternalId: src:001:sap:ds
 # Specify credentials separately like this:

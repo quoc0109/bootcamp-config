@@ -8,6 +8,7 @@ destination:
     type: timeseries
 ignoreNullFields: true
 shared: true
+schedule: '* * * * *'
 action: update
 dataSetExternalId: uc:001:oee:ds
 # Specify credentials separately like this:
